@@ -17,14 +17,6 @@ cd frontend && npm install && npm run dev
 
 Open `http://localhost:5173`. Set `VITE_API_URL` in `.env` when the API is not on port 8000.
 
-## Docker
-
-```bash
-docker compose up --build
-```
-
-The UI is at `http://localhost:5173` and the API at `http://localhost:8000`.
-
 ## API
 
 - `GET /health`
