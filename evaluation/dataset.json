@@ -1,0 +1,7 @@
+[
+  {"text":"Email synthetic.user@example.test and phone +91 98765 43210.","entities":[[6,33,"EMAIL"],[44,59,"PHONE"]]},
+  {"text":"PAN ABCDE1234F, Aadhaar 1234 5678 9012, IFSC HDFC0123456.","entities":[[4,14,"PAN"],[24,38,"AADHAAR"],[45,56,"IFSC"]]},
+  {"text":"Account number: 123456789012 and card 4111 1111 1111 1111.","entities":[[16,28,"BANK_ACCOUNT"],[38,57,"CARD"]]},
+  {"text":"DOB: 12/08/1994. Server IP 192.168.1.10. Handle @synthetic_user.","entities":[[5,15,"DATE_OF_BIRTH"],[27,39,"IP_ADDRESS"],[48,63,"SOCIAL_HANDLE"]]},
+  {"text":"Ship to 42 Example Street; contact synthetic.person@example.test.","entities":[[8,25,"ADDRESS"],[35,64,"EMAIL"]]}
+]
