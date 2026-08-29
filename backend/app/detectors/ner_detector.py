@@ -12,6 +12,6 @@ def detect_ner(text: str) -> list[Candidate]:
             return []
         doc = nlp(text)
         mapping = {"PERSON": ("PERSON", 0.82), "GPE": ("LOCATION", 0.78), "LOC": ("LOCATION", 0.76), "ORG": ("ORGANIZATION", 0.76)}
-        return [Candidate(mapping[label][0], ent.start_char, ent.end_char, mapping[label][1], "ner") for ent in doc.ents if ent.label_ in mapping]
+        return [Candidate(mapping[ent.label_][0], ent.start_char, ent.end_char, mapping[ent.label_][1], "ner") for ent in doc.ents if ent.label_ in mapping]
     except (ImportError, ValueError):
         return []
