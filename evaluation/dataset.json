@@ -1,0 +1,22 @@
+[
+  {"text":"Email synthetic.user@example.test and phone +91 98765 43210.","entities":[[6,33,"EMAIL"],[44,59,"PHONE"]]},
+  {"text":"PAN ABCDE1234F, Aadhaar 1234 5678 9012, IFSC HDFC0123456.","entities":[[4,14,"PAN"],[24,38,"AADHAAR"],[45,56,"IFSC"]]},
+  {"text":"Account number: 123456789012 and card 4111 1111 1111 1111.","entities":[[16,28,"BANK_ACCOUNT"],[38,57,"CARD"]]},
+  {"text":"DOB: 12/08/1994. Server IP 192.168.1.10. Handle @synthetic_user.","entities":[[5,15,"DATE_OF_BIRTH"],[27,39,"IP_ADDRESS"],[48,63,"SOCIAL_HANDLE"]]},
+  {"text":"Ship to 42 Example Street; contact synthetic.person@example.test.","entities":[[8,25,"ADDRESS"],[35,64,"EMAIL"]]},
+  {"text":"Please send the report to admin@company.org by tomorrow.","entities":[[26,43,"EMAIL"]]},
+  {"text":"Card ending 5234 1234 5678 9876 was charged $500.","entities":[[12,31,"CARD"]]},
+  {"text":"My PAN is XYZAB9876C and IFSC code is SBIN0001234.","entities":[[10,20,"PAN"],[38,49,"IFSC"]]},
+  {"text":"Aadhaar number 9876 5432 1098 linked to phone +91-9876543210.","entities":[[15,29,"AADHAAR"],[46,60,"PHONE"]]},
+  {"text":"The meeting notes contain no personal information whatsoever.","entities":[]},
+  {"text":"Revenue was 15000 units and cost was 8000 units last quarter.","entities":[]},
+  {"text":"Reach me at alice.wonder@sample.io or call 9876504321 for details.","entities":[[12,34,"EMAIL"],[43,53,"PHONE"]]},
+  {"text":"Date of birth: 1994-08-12. IP: 10.0.0.1.","entities":[[15,25,"DATE_OF_BIRTH"],[31,39,"IP_ADDRESS"]]},
+  {"text":"DOB = 25/12/2000, social handle @test_handle_42.","entities":[[6,16,"DATE_OF_BIRTH"],[32,47,"SOCIAL_HANDLE"]]},
+  {"text":"Account a/c no: 9988776655443322 routed via ICIC0007890.","entities":[[16,32,"BANK_ACCOUNT"],[44,55,"IFSC"]]},
+  {"text":"Card 378282246310005 was declined. Try 4532015112830366.","entities":[[5,20,"CARD"],[39,55,"CARD"]]},
+  {"text":"Mail to support.team+tag@domain.co.in and @devops_bot for escalation.","entities":[[8,37,"EMAIL"],[42,53,"SOCIAL_HANDLE"]]},
+  {"text":"Deliver to 123 Main Boulevard suite 400. PAN: ABCDE1234F.","entities":[[11,29,"ADDRESS"],[46,56,"PAN"]]},
+  {"text":"Internal IP 172.16.254.1 and external IP 203.0.113.42.","entities":[[12,24,"IP_ADDRESS"],[41,53,"IP_ADDRESS"]]},
+  {"text":"Phone numbers: +1 555-1234567 and 044-28175000 on file.","entities":[[15,29,"PHONE"],[34,46,"PHONE"]]}
+]
